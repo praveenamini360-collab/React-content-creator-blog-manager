@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Content Creator Blog Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Content Creator Blog Manager</h1>
+
+  <!-- Blog Form -->
+  <form id="blogForm">
+    <label>Title:</label><br>
+    <input type="text" id="title" placeholder="Enter blog title" required><br>
+
+    <label>Content:</label><br>
+    <textarea id="content" placeholder="Write your blog content..." required></textarea><br>
+
+    <label>Status:</label><br>
+    <select id="status">
+      <option value="draft">Draft</option>
+      <option value="published">Published</option>
+    </select><br>
+
+    <button type="submit">Add Blog</button>
+  </form>
+
+  <h2>All Blogs</h2>
+  <ul id="blogList"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
