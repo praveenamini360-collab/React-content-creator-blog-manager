@@ -1,0 +1,6 @@
+body { font-family: Arial; margin: 20px; }
+form { margin-bottom: 20px; }
+input, textarea, select, button { display: block; margin: 10px 0; padding: 8px; width: 300px; }
+button { background: #0078d7; color: white; border: none; cursor: pointer; }
+button:hover { background: #005fa3; }
+li { margin: 10px 0; padding: 10px; border: 1px solid #ccc; }
